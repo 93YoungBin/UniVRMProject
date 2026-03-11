@@ -1,91 +1,105 @@
 using Photon.Pun;
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using VRM;
 
-public class AvatarManager : MonoBehaviour , IPunObservable
+public class AvatarManager : MonoBehaviour, IPunObservable
 {
-    // 아바타 얼굴 변형을 위한 BlendShape
+    private PhotonView photonView;
+
+    // 현재 활성 아바타
     private VRMBlendShapeProxy avatar;
 
-    // 얼굴 정보 갱신을 위한 FaceData Class
-    private FaceData faceData = new FaceData();
-
-    // 아바타 변경을 위한 BlendShape 캐싱
+    // 모든 아바타
     private VRMBlendShapeProxy[] avatars;
 
-    // Face Class Data 동기화를 위한 string
-    private string tempstring;
+    // 얼굴 데이터
+    private FaceData faceData;
 
-    //RPC 동기화를 위한 Photon View
-    private PhotonView photonView;
+    // BlendShapeKey 캐싱
+    private BlendShapeKey blinkL;
+    private BlendShapeKey blinkR;
+    private BlendShapeKey mouthA;
 
     private void Awake()
     {
-        avatars = GetComponentsInChildren<VRMBlendShapeProxy>();
         photonView = GetComponent<PhotonView>();
-        SetAvatar(1);
+
+        avatars = GetComponentsInChildren<VRMBlendShapeProxy>(true);
+
+        // BlendShapeKey 캐싱
+        blinkL = BlendShapeKey.CreateFromPreset(BlendShapePreset.Blink_L);
+        blinkR = BlendShapeKey.CreateFromPreset(BlendShapePreset.Blink_R);
+        mouthA = BlendShapeKey.CreateFromPreset(BlendShapePreset.A);
+
+        SetAvatar(0);
     }
 
-    public void SetAvatarRPC(int num)
+    // Avatar 변경
+    public void SetAvatarRPC(int index)
     {
-        photonView.RPC("SetAvatar", RpcTarget.All,num);
+        photonView.RPC(nameof(SetAvatar), RpcTarget.AllBuffered, index);
     }
 
     [PunRPC]
-    public void SetAvatar(int num)
+    public void SetAvatar(int index)
     {
-        foreach (var item in avatars)
+        if (index < 0 || index >= avatars.Length)
+            return;
+
+        foreach (var a in avatars)
         {
-            item.gameObject.SetActive(false);
+            a.gameObject.SetActive(false);
         }
 
-        avatar = avatars[num];
-        avatars[num].gameObject.SetActive(true);
+        avatar = avatars[index];
+        avatar.gameObject.SetActive(true);
     }
 
-    public void UpdateFaceData(float left,float right,float mouth)
+
+    // 얼굴 데이터 갱신 (Master)
+    public void UpdateFaceData(float left, float right, float mouth)
     {
+        if (!photonView.IsMine)
+            return;
+
         faceData.LeftEye = left;
         faceData.RightEye = right;
         faceData.Mouth = mouth;
     }
+
+
     private void Update()
     {
-        if(avatar == null)
-        {
+        if (avatar == null)
             return;
-        }
 
-        avatar.ImmediatelySetValue(
-            BlendShapeKey.CreateFromPreset(BlendShapePreset.Blink_L),
-            faceData.LeftEye);
-
-        avatar.ImmediatelySetValue(
-            BlendShapeKey.CreateFromPreset(BlendShapePreset.Blink_R),
-            faceData.RightEye);
-
-        avatar.ImmediatelySetValue(
-            BlendShapeKey.CreateFromPreset(BlendShapePreset.A),
-            faceData.Mouth);
+        avatar.ImmediatelySetValue(blinkL, faceData.LeftEye);
+        avatar.ImmediatelySetValue(blinkR, faceData.RightEye);
+        avatar.ImmediatelySetValue(mouthA, faceData.Mouth);
     }
 
+
+    // Photon 동기화
     public void OnPhotonSerializeView(PhotonStream stream, PhotonMessageInfo info)
     {
         if (stream.IsWriting)
         {
-            stream.SendNext(JsonUtility.ToJson(faceData));
+            stream.SendNext(faceData.LeftEye);
+            stream.SendNext(faceData.RightEye);
+            stream.SendNext(faceData.Mouth);
         }
         else
         {
-            tempstring = (string)stream.ReceiveNext();
-            faceData = JsonUtility.FromJson<FaceData>(tempstring);
+            faceData.LeftEye = (float)stream.ReceiveNext();
+            faceData.RightEye = (float)stream.ReceiveNext();
+            faceData.Mouth = (float)stream.ReceiveNext();
         }
     }
 }
 
-public class FaceData
+// 얼굴 데이터 구조체
+[System.Serializable]
+public struct FaceData
 {
     public float LeftEye;
     public float RightEye;

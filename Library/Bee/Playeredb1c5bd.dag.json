@@ -424,7 +424,7 @@
       "DisplayName": "Writing boot.config_tyr4.info",
       "ActionType": "WriteFile",
       "PayloadOffset": 83,
-      "PayloadLength": 17438,
+      "PayloadLength": 17282,
       "PayloadDebugContentSnippet": "{\"System.Object\":null,\"Bee.Tun",
       "Inputs": [],
       "Outputs": [
@@ -520,32 +520,32 @@
         "C:/Users/Bin/Documents/Unity/2022.3.62f3/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.WindModule.dll",
         "C:/Users/Bin/Documents/Unity/2022.3.62f3/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.XRModule.dll",
         "C:/Users/Bin/Documents/Unity/2022.3.62f3/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.dll",
-        "C:/Users/Bin/Documents/Unity/UniVRMProject/Library/Bee/PlayerScriptAssemblies/Assembly-CSharp.dll",
-        "C:/Users/Bin/Documents/Unity/UniVRMProject/Library/Bee/PlayerScriptAssemblies/UniHumanoid.dll",
-        "C:/Users/Bin/Documents/Unity/UniVRMProject/Library/Bee/PlayerScriptAssemblies/SpringBoneJobs.dll",
-        "C:/Users/Bin/Documents/Unity/UniVRMProject/Library/Bee/PlayerScriptAssemblies/Unity.VisualScripting.Core.dll",
-        "C:/Users/Bin/Documents/Unity/UniVRMProject/Library/Bee/PlayerScriptAssemblies/MToon.dll",
-        "C:/Users/Bin/Documents/Unity/UniVRMProject/Library/Bee/PlayerScriptAssemblies/UnityEngine.UI.dll",
-        "C:/Users/Bin/Documents/Unity/UniVRMProject/Library/Bee/PlayerScriptAssemblies/Unity.VisualScripting.Flow.dll",
-        "C:/Users/Bin/Documents/Unity/UniVRMProject/Library/Bee/PlayerScriptAssemblies/UniGLTF.dll",
-        "C:/Users/Bin/Documents/Unity/UniVRMProject/Library/Bee/PlayerScriptAssemblies/PhotonRealtime.dll",
-        "C:/Users/Bin/Documents/Unity/UniVRMProject/Library/Bee/PlayerScriptAssemblies/PhotonChat.dll",
-        "C:/Users/Bin/Documents/Unity/UniVRMProject/Library/Bee/PlayerScriptAssemblies/Mediapipe.Runtime.dll",
-        "C:/Users/Bin/Documents/Unity/UniVRMProject/Library/Bee/PlayerScriptAssemblies/Unity.Timeline.dll",
-        "C:/Users/Bin/Documents/Unity/UniVRMProject/Library/Bee/PlayerScriptAssemblies/PhotonUnityNetworking.dll",
-        "C:/Users/Bin/Documents/Unity/UniVRMProject/Library/Bee/PlayerScriptAssemblies/Unity.Mathematics.dll",
-        "C:/Users/Bin/Documents/Unity/UniVRMProject/Library/Bee/PlayerScriptAssemblies/PhotonUnityNetworking.Demos.dll",
-        "C:/Users/Bin/Documents/Unity/UniVRMProject/Library/Bee/PlayerScriptAssemblies/PhotonUnityNetworking.Utilities.dll",
-        "C:/Users/Bin/Documents/Unity/UniVRMProject/Library/Bee/PlayerScriptAssemblies/Unity.TextMeshPro.dll",
-        "C:/Users/Bin/Documents/Unity/UniVRMProject/Library/Bee/PlayerScriptAssemblies/UniGLTF.Utils.dll",
-        "C:/Users/Bin/Documents/Unity/UniVRMProject/Library/Bee/PlayerScriptAssemblies/UniGLTF.UniUnlit.dll",
-        "C:/Users/Bin/Documents/Unity/UniVRMProject/Library/Bee/PlayerScriptAssemblies/Unity.VisualScripting.State.dll",
-        "C:/Users/Bin/Documents/Unity/UniVRMProject/Library/Bee/PlayerScriptAssemblies/VRM.dll",
-        "C:/Users/Bin/Documents/Unity/UniVRMProject/Assets/Photon/PhotonLibs/WebSocket/websocket-sharp.dll",
-        "C:/Users/Bin/Documents/Unity/UniVRMProject/Packages/com.github.homuler.mediapipe/Runtime/Plugins/Protobuf/System.Runtime.CompilerServices.Unsafe.dll",
-        "C:/Users/Bin/Documents/Unity/UniVRMProject/Packages/com.github.homuler.mediapipe/Runtime/Plugins/Protobuf/Google.Protobuf.dll",
-        "C:/Users/Bin/Documents/Unity/UniVRMProject/Library/PackageCache/com.unity.visualscripting@1.9.4/Runtime/VisualScripting.Flow/Dependencies/NCalc/Unity.VisualScripting.Antlr3.Runtime.dll",
-        "C:/Users/Bin/Documents/Unity/UniVRMProject/Assets/Photon/PhotonLibs/netstandard2.0/Photon3Unity3D.dll",
+        "C:/Users/Bin/Documents/UniVRMProject/Library/Bee/PlayerScriptAssemblies/Assembly-CSharp.dll",
+        "C:/Users/Bin/Documents/UniVRMProject/Library/Bee/PlayerScriptAssemblies/UniHumanoid.dll",
+        "C:/Users/Bin/Documents/UniVRMProject/Library/Bee/PlayerScriptAssemblies/SpringBoneJobs.dll",
+        "C:/Users/Bin/Documents/UniVRMProject/Library/Bee/PlayerScriptAssemblies/Unity.VisualScripting.Core.dll",
+        "C:/Users/Bin/Documents/UniVRMProject/Library/Bee/PlayerScriptAssemblies/MToon.dll",
+        "C:/Users/Bin/Documents/UniVRMProject/Library/Bee/PlayerScriptAssemblies/UnityEngine.UI.dll",
+        "C:/Users/Bin/Documents/UniVRMProject/Library/Bee/PlayerScriptAssemblies/Unity.VisualScripting.Flow.dll",
+        "C:/Users/Bin/Documents/UniVRMProject/Library/Bee/PlayerScriptAssemblies/UniGLTF.dll",
+        "C:/Users/Bin/Documents/UniVRMProject/Library/Bee/PlayerScriptAssemblies/PhotonRealtime.dll",
+        "C:/Users/Bin/Documents/UniVRMProject/Library/Bee/PlayerScriptAssemblies/PhotonChat.dll",
+        "C:/Users/Bin/Documents/UniVRMProject/Library/Bee/PlayerScriptAssemblies/Mediapipe.Runtime.dll",
+        "C:/Users/Bin/Documents/UniVRMProject/Library/Bee/PlayerScriptAssemblies/Unity.Timeline.dll",
+        "C:/Users/Bin/Documents/UniVRMProject/Library/Bee/PlayerScriptAssemblies/PhotonUnityNetworking.dll",
+        "C:/Users/Bin/Documents/UniVRMProject/Library/Bee/PlayerScriptAssemblies/Unity.Mathematics.dll",
+        "C:/Users/Bin/Documents/UniVRMProject/Library/Bee/PlayerScriptAssemblies/PhotonUnityNetworking.Demos.dll",
+        "C:/Users/Bin/Documents/UniVRMProject/Library/Bee/PlayerScriptAssemblies/PhotonUnityNetworking.Utilities.dll",
+        "C:/Users/Bin/Documents/UniVRMProject/Library/Bee/PlayerScriptAssemblies/Unity.TextMeshPro.dll",
+        "C:/Users/Bin/Documents/UniVRMProject/Library/Bee/PlayerScriptAssemblies/UniGLTF.Utils.dll",
+        "C:/Users/Bin/Documents/UniVRMProject/Library/Bee/PlayerScriptAssemblies/UniGLTF.UniUnlit.dll",
+        "C:/Users/Bin/Documents/UniVRMProject/Library/Bee/PlayerScriptAssemblies/Unity.VisualScripting.State.dll",
+        "C:/Users/Bin/Documents/UniVRMProject/Library/Bee/PlayerScriptAssemblies/VRM.dll",
+        "C:/Users/Bin/Documents/UniVRMProject/Assets/Photon/PhotonLibs/WebSocket/websocket-sharp.dll",
+        "C:/Users/Bin/Documents/UniVRMProject/Packages/com.github.homuler.mediapipe/Runtime/Plugins/Protobuf/System.Runtime.CompilerServices.Unsafe.dll",
+        "C:/Users/Bin/Documents/UniVRMProject/Packages/com.github.homuler.mediapipe/Runtime/Plugins/Protobuf/Google.Protobuf.dll",
+        "C:/Users/Bin/Documents/UniVRMProject/Library/PackageCache/com.unity.visualscripting@1.9.4/Runtime/VisualScripting.Flow/Dependencies/NCalc/Unity.VisualScripting.Antlr3.Runtime.dll",
+        "C:/Users/Bin/Documents/UniVRMProject/Assets/Photon/PhotonLibs/netstandard2.0/Photon3Unity3D.dll",
         "C:/Users/Bin/Documents/Unity/2022.3.62f3/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/Facades/System.Buffers.dll",
         "C:/Users/Bin/Documents/Unity/2022.3.62f3/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/Facades/System.Memory.dll",
         "C:/Users/Bin/Documents/Unity/2022.3.62f3/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/Facades/System.Runtime.dll",
@@ -1466,7 +1466,7 @@
       "DisplayName": "Copying Assembly-CSharp.dll",
       "ActionType": "CopyFiles",
       "Inputs": [
-        "C:/Users/Bin/Documents/Unity/UniVRMProject/Library/Bee/PlayerScriptAssemblies/Assembly-CSharp.dll"
+        "C:/Users/Bin/Documents/UniVRMProject/Library/Bee/PlayerScriptAssemblies/Assembly-CSharp.dll"
       ],
       "Outputs": [
         "prog/UniVRMProject_Data/Managed/Assembly-CSharp.dll"
@@ -1478,7 +1478,7 @@
       "DisplayName": "Copying UniHumanoid.dll",
       "ActionType": "CopyFiles",
       "Inputs": [
-        "C:/Users/Bin/Documents/Unity/UniVRMProject/Library/Bee/PlayerScriptAssemblies/UniHumanoid.dll"
+        "C:/Users/Bin/Documents/UniVRMProject/Library/Bee/PlayerScriptAssemblies/UniHumanoid.dll"
       ],
       "Outputs": [
         "prog/UniVRMProject_Data/Managed/UniHumanoid.dll"
@@ -1490,7 +1490,7 @@
       "DisplayName": "Copying SpringBoneJobs.dll",
       "ActionType": "CopyFiles",
       "Inputs": [
-        "C:/Users/Bin/Documents/Unity/UniVRMProject/Library/Bee/PlayerScriptAssemblies/SpringBoneJobs.dll"
+        "C:/Users/Bin/Documents/UniVRMProject/Library/Bee/PlayerScriptAssemblies/SpringBoneJobs.dll"
       ],
       "Outputs": [
         "prog/UniVRMProject_Data/Managed/SpringBoneJobs.dll"
@@ -1502,7 +1502,7 @@
       "DisplayName": "Copying Unity.VisualScripting.Core.dll",
       "ActionType": "CopyFiles",
       "Inputs": [
-        "C:/Users/Bin/Documents/Unity/UniVRMProject/Library/Bee/PlayerScriptAssemblies/Unity.VisualScripting.Core.dll"
+        "C:/Users/Bin/Documents/UniVRMProject/Library/Bee/PlayerScriptAssemblies/Unity.VisualScripting.Core.dll"
       ],
       "Outputs": [
         "prog/UniVRMProject_Data/Managed/Unity.VisualScripting.Core.dll"
@@ -1514,7 +1514,7 @@
       "DisplayName": "Copying MToon.dll",
       "ActionType": "CopyFiles",
       "Inputs": [
-        "C:/Users/Bin/Documents/Unity/UniVRMProject/Library/Bee/PlayerScriptAssemblies/MToon.dll"
+        "C:/Users/Bin/Documents/UniVRMProject/Library/Bee/PlayerScriptAssemblies/MToon.dll"
       ],
       "Outputs": [
         "prog/UniVRMProject_Data/Managed/MToon.dll"
@@ -1526,7 +1526,7 @@
       "DisplayName": "Copying UnityEngine.UI.dll",
       "ActionType": "CopyFiles",
       "Inputs": [
-        "C:/Users/Bin/Documents/Unity/UniVRMProject/Library/Bee/PlayerScriptAssemblies/UnityEngine.UI.dll"
+        "C:/Users/Bin/Documents/UniVRMProject/Library/Bee/PlayerScriptAssemblies/UnityEngine.UI.dll"
       ],
       "Outputs": [
         "prog/UniVRMProject_Data/Managed/UnityEngine.UI.dll"
@@ -1538,7 +1538,7 @@
       "DisplayName": "Copying Unity.VisualScripting.Flow.dll",
       "ActionType": "CopyFiles",
       "Inputs": [
-        "C:/Users/Bin/Documents/Unity/UniVRMProject/Library/Bee/PlayerScriptAssemblies/Unity.VisualScripting.Flow.dll"
+        "C:/Users/Bin/Documents/UniVRMProject/Library/Bee/PlayerScriptAssemblies/Unity.VisualScripting.Flow.dll"
       ],
       "Outputs": [
         "prog/UniVRMProject_Data/Managed/Unity.VisualScripting.Flow.dll"
@@ -1550,7 +1550,7 @@
       "DisplayName": "Copying UniGLTF.dll",
       "ActionType": "CopyFiles",
       "Inputs": [
-        "C:/Users/Bin/Documents/Unity/UniVRMProject/Library/Bee/PlayerScriptAssemblies/UniGLTF.dll"
+        "C:/Users/Bin/Documents/UniVRMProject/Library/Bee/PlayerScriptAssemblies/UniGLTF.dll"
       ],
       "Outputs": [
         "prog/UniVRMProject_Data/Managed/UniGLTF.dll"
@@ -1562,7 +1562,7 @@
       "DisplayName": "Copying PhotonRealtime.dll",
       "ActionType": "CopyFiles",
       "Inputs": [
-        "C:/Users/Bin/Documents/Unity/UniVRMProject/Library/Bee/PlayerScriptAssemblies/PhotonRealtime.dll"
+        "C:/Users/Bin/Documents/UniVRMProject/Library/Bee/PlayerScriptAssemblies/PhotonRealtime.dll"
       ],
       "Outputs": [
         "prog/UniVRMProject_Data/Managed/PhotonRealtime.dll"
@@ -1574,7 +1574,7 @@
       "DisplayName": "Copying PhotonChat.dll",
       "ActionType": "CopyFiles",
       "Inputs": [
-        "C:/Users/Bin/Documents/Unity/UniVRMProject/Library/Bee/PlayerScriptAssemblies/PhotonChat.dll"
+        "C:/Users/Bin/Documents/UniVRMProject/Library/Bee/PlayerScriptAssemblies/PhotonChat.dll"
       ],
       "Outputs": [
         "prog/UniVRMProject_Data/Managed/PhotonChat.dll"
@@ -1586,7 +1586,7 @@
       "DisplayName": "Copying Mediapipe.Runtime.dll",
       "ActionType": "CopyFiles",
       "Inputs": [
-        "C:/Users/Bin/Documents/Unity/UniVRMProject/Library/Bee/PlayerScriptAssemblies/Mediapipe.Runtime.dll"
+        "C:/Users/Bin/Documents/UniVRMProject/Library/Bee/PlayerScriptAssemblies/Mediapipe.Runtime.dll"
       ],
       "Outputs": [
         "prog/UniVRMProject_Data/Managed/Mediapipe.Runtime.dll"
@@ -1598,7 +1598,7 @@
       "DisplayName": "Copying Unity.Timeline.dll",
       "ActionType": "CopyFiles",
       "Inputs": [
-        "C:/Users/Bin/Documents/Unity/UniVRMProject/Library/Bee/PlayerScriptAssemblies/Unity.Timeline.dll"
+        "C:/Users/Bin/Documents/UniVRMProject/Library/Bee/PlayerScriptAssemblies/Unity.Timeline.dll"
       ],
       "Outputs": [
         "prog/UniVRMProject_Data/Managed/Unity.Timeline.dll"
@@ -1610,7 +1610,7 @@
       "DisplayName": "Copying PhotonUnityNetworking.dll",
       "ActionType": "CopyFiles",
       "Inputs": [
-        "C:/Users/Bin/Documents/Unity/UniVRMProject/Library/Bee/PlayerScriptAssemblies/PhotonUnityNetworking.dll"
+        "C:/Users/Bin/Documents/UniVRMProject/Library/Bee/PlayerScriptAssemblies/PhotonUnityNetworking.dll"
       ],
       "Outputs": [
         "prog/UniVRMProject_Data/Managed/PhotonUnityNetworking.dll"
@@ -1622,7 +1622,7 @@
       "DisplayName": "Copying Unity.Mathematics.dll",
       "ActionType": "CopyFiles",
       "Inputs": [
-        "C:/Users/Bin/Documents/Unity/UniVRMProject/Library/Bee/PlayerScriptAssemblies/Unity.Mathematics.dll"
+        "C:/Users/Bin/Documents/UniVRMProject/Library/Bee/PlayerScriptAssemblies/Unity.Mathematics.dll"
       ],
       "Outputs": [
         "prog/UniVRMProject_Data/Managed/Unity.Mathematics.dll"
@@ -1634,7 +1634,7 @@
       "DisplayName": "Copying PhotonUnityNetworking.Demos.dll",
       "ActionType": "CopyFiles",
       "Inputs": [
-        "C:/Users/Bin/Documents/Unity/UniVRMProject/Library/Bee/PlayerScriptAssemblies/PhotonUnityNetworking.Demos.dll"
+        "C:/Users/Bin/Documents/UniVRMProject/Library/Bee/PlayerScriptAssemblies/PhotonUnityNetworking.Demos.dll"
       ],
       "Outputs": [
         "prog/UniVRMProject_Data/Managed/PhotonUnityNetworking.Demos.dll"
@@ -1646,7 +1646,7 @@
       "DisplayName": "Copying PhotonUnityNetworking.Utilities.dll",
       "ActionType": "CopyFiles",
       "Inputs": [
-        "C:/Users/Bin/Documents/Unity/UniVRMProject/Library/Bee/PlayerScriptAssemblies/PhotonUnityNetworking.Utilities.dll"
+        "C:/Users/Bin/Documents/UniVRMProject/Library/Bee/PlayerScriptAssemblies/PhotonUnityNetworking.Utilities.dll"
       ],
       "Outputs": [
         "prog/UniVRMProject_Data/Managed/PhotonUnityNetworking.Utilities.dll"
@@ -1658,7 +1658,7 @@
       "DisplayName": "Copying Unity.TextMeshPro.dll",
       "ActionType": "CopyFiles",
       "Inputs": [
-        "C:/Users/Bin/Documents/Unity/UniVRMProject/Library/Bee/PlayerScriptAssemblies/Unity.TextMeshPro.dll"
+        "C:/Users/Bin/Documents/UniVRMProject/Library/Bee/PlayerScriptAssemblies/Unity.TextMeshPro.dll"
       ],
       "Outputs": [
         "prog/UniVRMProject_Data/Managed/Unity.TextMeshPro.dll"
@@ -1670,7 +1670,7 @@
       "DisplayName": "Copying UniGLTF.Utils.dll",
       "ActionType": "CopyFiles",
       "Inputs": [
-        "C:/Users/Bin/Documents/Unity/UniVRMProject/Library/Bee/PlayerScriptAssemblies/UniGLTF.Utils.dll"
+        "C:/Users/Bin/Documents/UniVRMProject/Library/Bee/PlayerScriptAssemblies/UniGLTF.Utils.dll"
       ],
       "Outputs": [
         "prog/UniVRMProject_Data/Managed/UniGLTF.Utils.dll"
@@ -1682,7 +1682,7 @@
       "DisplayName": "Copying UniGLTF.UniUnlit.dll",
       "ActionType": "CopyFiles",
       "Inputs": [
-        "C:/Users/Bin/Documents/Unity/UniVRMProject/Library/Bee/PlayerScriptAssemblies/UniGLTF.UniUnlit.dll"
+        "C:/Users/Bin/Documents/UniVRMProject/Library/Bee/PlayerScriptAssemblies/UniGLTF.UniUnlit.dll"
       ],
       "Outputs": [
         "prog/UniVRMProject_Data/Managed/UniGLTF.UniUnlit.dll"
@@ -1694,7 +1694,7 @@
       "DisplayName": "Copying Unity.VisualScripting.State.dll",
       "ActionType": "CopyFiles",
       "Inputs": [
-        "C:/Users/Bin/Documents/Unity/UniVRMProject/Library/Bee/PlayerScriptAssemblies/Unity.VisualScripting.State.dll"
+        "C:/Users/Bin/Documents/UniVRMProject/Library/Bee/PlayerScriptAssemblies/Unity.VisualScripting.State.dll"
       ],
       "Outputs": [
         "prog/UniVRMProject_Data/Managed/Unity.VisualScripting.State.dll"
@@ -1706,7 +1706,7 @@
       "DisplayName": "Copying VRM.dll",
       "ActionType": "CopyFiles",
       "Inputs": [
-        "C:/Users/Bin/Documents/Unity/UniVRMProject/Library/Bee/PlayerScriptAssemblies/VRM.dll"
+        "C:/Users/Bin/Documents/UniVRMProject/Library/Bee/PlayerScriptAssemblies/VRM.dll"
       ],
       "Outputs": [
         "prog/UniVRMProject_Data/Managed/VRM.dll"
@@ -1718,7 +1718,7 @@
       "DisplayName": "Copying websocket-sharp.dll",
       "ActionType": "CopyFiles",
       "Inputs": [
-        "C:/Users/Bin/Documents/Unity/UniVRMProject/Assets/Photon/PhotonLibs/WebSocket/websocket-sharp.dll"
+        "C:/Users/Bin/Documents/UniVRMProject/Assets/Photon/PhotonLibs/WebSocket/websocket-sharp.dll"
       ],
       "Outputs": [
         "prog/UniVRMProject_Data/Managed/websocket-sharp.dll"
@@ -1730,7 +1730,7 @@
       "DisplayName": "Copying System.Runtime.CompilerServices.Unsafe.dll",
       "ActionType": "CopyFiles",
       "Inputs": [
-        "C:/Users/Bin/Documents/Unity/UniVRMProject/Packages/com.github.homuler.mediapipe/Runtime/Plugins/Protobuf/System.Runtime.CompilerServices.Unsafe.dll"
+        "C:/Users/Bin/Documents/UniVRMProject/Packages/com.github.homuler.mediapipe/Runtime/Plugins/Protobuf/System.Runtime.CompilerServices.Unsafe.dll"
       ],
       "Outputs": [
         "prog/UniVRMProject_Data/Managed/System.Runtime.CompilerServices.Unsafe.dll"
@@ -1742,7 +1742,7 @@
       "DisplayName": "Copying Google.Protobuf.dll",
       "ActionType": "CopyFiles",
       "Inputs": [
-        "C:/Users/Bin/Documents/Unity/UniVRMProject/Packages/com.github.homuler.mediapipe/Runtime/Plugins/Protobuf/Google.Protobuf.dll"
+        "C:/Users/Bin/Documents/UniVRMProject/Packages/com.github.homuler.mediapipe/Runtime/Plugins/Protobuf/Google.Protobuf.dll"
       ],
       "Outputs": [
         "prog/UniVRMProject_Data/Managed/Google.Protobuf.dll"
@@ -1754,7 +1754,7 @@
       "DisplayName": "Copying Unity.VisualScripting.Antlr3.Runtime.dll",
       "ActionType": "CopyFiles",
       "Inputs": [
-        "C:/Users/Bin/Documents/Unity/UniVRMProject/Library/PackageCache/com.unity.visualscripting@1.9.4/Runtime/VisualScripting.Flow/Dependencies/NCalc/Unity.VisualScripting.Antlr3.Runtime.dll"
+        "C:/Users/Bin/Documents/UniVRMProject/Library/PackageCache/com.unity.visualscripting@1.9.4/Runtime/VisualScripting.Flow/Dependencies/NCalc/Unity.VisualScripting.Antlr3.Runtime.dll"
       ],
       "Outputs": [
         "prog/UniVRMProject_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll"
@@ -1766,7 +1766,7 @@
       "DisplayName": "Copying Photon3Unity3D.dll",
       "ActionType": "CopyFiles",
       "Inputs": [
-        "C:/Users/Bin/Documents/Unity/UniVRMProject/Assets/Photon/PhotonLibs/netstandard2.0/Photon3Unity3D.dll"
+        "C:/Users/Bin/Documents/UniVRMProject/Assets/Photon/PhotonLibs/netstandard2.0/Photon3Unity3D.dll"
       ],
       "Outputs": [
         "prog/UniVRMProject_Data/Managed/Photon3Unity3D.dll"
@@ -2882,7 +2882,7 @@
       "DisplayName": "Copying Assembly-CSharp.pdb",
       "ActionType": "CopyFiles",
       "Inputs": [
-        "C:/Users/Bin/Documents/Unity/UniVRMProject/Library/Bee/PlayerScriptAssemblies/Assembly-CSharp.pdb"
+        "C:/Users/Bin/Documents/UniVRMProject/Library/Bee/PlayerScriptAssemblies/Assembly-CSharp.pdb"
       ],
       "Outputs": [
         "prog/UniVRMProject_Data/Managed/Assembly-CSharp.pdb"
@@ -2894,7 +2894,7 @@
       "DisplayName": "Copying UniHumanoid.pdb",
       "ActionType": "CopyFiles",
       "Inputs": [
-        "C:/Users/Bin/Documents/Unity/UniVRMProject/Library/Bee/PlayerScriptAssemblies/UniHumanoid.pdb"
+        "C:/Users/Bin/Documents/UniVRMProject/Library/Bee/PlayerScriptAssemblies/UniHumanoid.pdb"
       ],
       "Outputs": [
         "prog/UniVRMProject_Data/Managed/UniHumanoid.pdb"
@@ -2906,7 +2906,7 @@
       "DisplayName": "Copying SpringBoneJobs.pdb",
       "ActionType": "CopyFiles",
       "Inputs": [
-        "C:/Users/Bin/Documents/Unity/UniVRMProject/Library/Bee/PlayerScriptAssemblies/SpringBoneJobs.pdb"
+        "C:/Users/Bin/Documents/UniVRMProject/Library/Bee/PlayerScriptAssemblies/SpringBoneJobs.pdb"
       ],
       "Outputs": [
         "prog/UniVRMProject_Data/Managed/SpringBoneJobs.pdb"
@@ -2918,7 +2918,7 @@
       "DisplayName": "Copying Unity.VisualScripting.Core.pdb",
       "ActionType": "CopyFiles",
       "Inputs": [
-        "C:/Users/Bin/Documents/Unity/UniVRMProject/Library/Bee/PlayerScriptAssemblies/Unity.VisualScripting.Core.pdb"
+        "C:/Users/Bin/Documents/UniVRMProject/Library/Bee/PlayerScriptAssemblies/Unity.VisualScripting.Core.pdb"
       ],
       "Outputs": [
         "prog/UniVRMProject_Data/Managed/Unity.VisualScripting.Core.pdb"
@@ -2930,7 +2930,7 @@
       "DisplayName": "Copying MToon.pdb",
       "ActionType": "CopyFiles",
       "Inputs": [
-        "C:/Users/Bin/Documents/Unity/UniVRMProject/Library/Bee/PlayerScriptAssemblies/MToon.pdb"
+        "C:/Users/Bin/Documents/UniVRMProject/Library/Bee/PlayerScriptAssemblies/MToon.pdb"
       ],
       "Outputs": [
         "prog/UniVRMProject_Data/Managed/MToon.pdb"
@@ -2942,7 +2942,7 @@
       "DisplayName": "Copying UnityEngine.UI.pdb",
       "ActionType": "CopyFiles",
       "Inputs": [
-        "C:/Users/Bin/Documents/Unity/UniVRMProject/Library/Bee/PlayerScriptAssemblies/UnityEngine.UI.pdb"
+        "C:/Users/Bin/Documents/UniVRMProject/Library/Bee/PlayerScriptAssemblies/UnityEngine.UI.pdb"
       ],
       "Outputs": [
         "prog/UniVRMProject_Data/Managed/UnityEngine.UI.pdb"
@@ -2954,7 +2954,7 @@
       "DisplayName": "Copying Unity.VisualScripting.Flow.pdb",
       "ActionType": "CopyFiles",
       "Inputs": [
-        "C:/Users/Bin/Documents/Unity/UniVRMProject/Library/Bee/PlayerScriptAssemblies/Unity.VisualScripting.Flow.pdb"
+        "C:/Users/Bin/Documents/UniVRMProject/Library/Bee/PlayerScriptAssemblies/Unity.VisualScripting.Flow.pdb"
       ],
       "Outputs": [
         "prog/UniVRMProject_Data/Managed/Unity.VisualScripting.Flow.pdb"
@@ -2966,7 +2966,7 @@
       "DisplayName": "Copying UniGLTF.pdb",
       "ActionType": "CopyFiles",
       "Inputs": [
-        "C:/Users/Bin/Documents/Unity/UniVRMProject/Library/Bee/PlayerScriptAssemblies/UniGLTF.pdb"
+        "C:/Users/Bin/Documents/UniVRMProject/Library/Bee/PlayerScriptAssemblies/UniGLTF.pdb"
       ],
       "Outputs": [
         "prog/UniVRMProject_Data/Managed/UniGLTF.pdb"
@@ -2978,7 +2978,7 @@
       "DisplayName": "Copying PhotonRealtime.pdb",
       "ActionType": "CopyFiles",
       "Inputs": [
-        "C:/Users/Bin/Documents/Unity/UniVRMProject/Library/Bee/PlayerScriptAssemblies/PhotonRealtime.pdb"
+        "C:/Users/Bin/Documents/UniVRMProject/Library/Bee/PlayerScriptAssemblies/PhotonRealtime.pdb"
       ],
       "Outputs": [
         "prog/UniVRMProject_Data/Managed/PhotonRealtime.pdb"
@@ -2990,7 +2990,7 @@
       "DisplayName": "Copying PhotonChat.pdb",
       "ActionType": "CopyFiles",
       "Inputs": [
-        "C:/Users/Bin/Documents/Unity/UniVRMProject/Library/Bee/PlayerScriptAssemblies/PhotonChat.pdb"
+        "C:/Users/Bin/Documents/UniVRMProject/Library/Bee/PlayerScriptAssemblies/PhotonChat.pdb"
       ],
       "Outputs": [
         "prog/UniVRMProject_Data/Managed/PhotonChat.pdb"
@@ -3002,7 +3002,7 @@
       "DisplayName": "Copying Mediapipe.Runtime.pdb",
       "ActionType": "CopyFiles",
       "Inputs": [
-        "C:/Users/Bin/Documents/Unity/UniVRMProject/Library/Bee/PlayerScriptAssemblies/Mediapipe.Runtime.pdb"
+        "C:/Users/Bin/Documents/UniVRMProject/Library/Bee/PlayerScriptAssemblies/Mediapipe.Runtime.pdb"
       ],
       "Outputs": [
         "prog/UniVRMProject_Data/Managed/Mediapipe.Runtime.pdb"
@@ -3014,7 +3014,7 @@
       "DisplayName": "Copying Unity.Timeline.pdb",
       "ActionType": "CopyFiles",
       "Inputs": [
-        "C:/Users/Bin/Documents/Unity/UniVRMProject/Library/Bee/PlayerScriptAssemblies/Unity.Timeline.pdb"
+        "C:/Users/Bin/Documents/UniVRMProject/Library/Bee/PlayerScriptAssemblies/Unity.Timeline.pdb"
       ],
       "Outputs": [
         "prog/UniVRMProject_Data/Managed/Unity.Timeline.pdb"
@@ -3026,7 +3026,7 @@
       "DisplayName": "Copying PhotonUnityNetworking.pdb",
       "ActionType": "CopyFiles",
       "Inputs": [
-        "C:/Users/Bin/Documents/Unity/UniVRMProject/Library/Bee/PlayerScriptAssemblies/PhotonUnityNetworking.pdb"
+        "C:/Users/Bin/Documents/UniVRMProject/Library/Bee/PlayerScriptAssemblies/PhotonUnityNetworking.pdb"
       ],
       "Outputs": [
         "prog/UniVRMProject_Data/Managed/PhotonUnityNetworking.pdb"
@@ -3038,7 +3038,7 @@
       "DisplayName": "Copying Unity.Mathematics.pdb",
       "ActionType": "CopyFiles",
       "Inputs": [
-        "C:/Users/Bin/Documents/Unity/UniVRMProject/Library/Bee/PlayerScriptAssemblies/Unity.Mathematics.pdb"
+        "C:/Users/Bin/Documents/UniVRMProject/Library/Bee/PlayerScriptAssemblies/Unity.Mathematics.pdb"
       ],
       "Outputs": [
         "prog/UniVRMProject_Data/Managed/Unity.Mathematics.pdb"
@@ -3050,7 +3050,7 @@
       "DisplayName": "Copying PhotonUnityNetworking.Demos.pdb",
       "ActionType": "CopyFiles",
       "Inputs": [
-        "C:/Users/Bin/Documents/Unity/UniVRMProject/Library/Bee/PlayerScriptAssemblies/PhotonUnityNetworking.Demos.pdb"
+        "C:/Users/Bin/Documents/UniVRMProject/Library/Bee/PlayerScriptAssemblies/PhotonUnityNetworking.Demos.pdb"
       ],
       "Outputs": [
         "prog/UniVRMProject_Data/Managed/PhotonUnityNetworking.Demos.pdb"
@@ -3062,7 +3062,7 @@
       "DisplayName": "Copying PhotonUnityNetworking.Utilities.pdb",
       "ActionType": "CopyFiles",
       "Inputs": [
-        "C:/Users/Bin/Documents/Unity/UniVRMProject/Library/Bee/PlayerScriptAssemblies/PhotonUnityNetworking.Utilities.pdb"
+        "C:/Users/Bin/Documents/UniVRMProject/Library/Bee/PlayerScriptAssemblies/PhotonUnityNetworking.Utilities.pdb"
       ],
       "Outputs": [
         "prog/UniVRMProject_Data/Managed/PhotonUnityNetworking.Utilities.pdb"
@@ -3074,7 +3074,7 @@
       "DisplayName": "Copying Unity.TextMeshPro.pdb",
       "ActionType": "CopyFiles",
       "Inputs": [
-        "C:/Users/Bin/Documents/Unity/UniVRMProject/Library/Bee/PlayerScriptAssemblies/Unity.TextMeshPro.pdb"
+        "C:/Users/Bin/Documents/UniVRMProject/Library/Bee/PlayerScriptAssemblies/Unity.TextMeshPro.pdb"
       ],
       "Outputs": [
         "prog/UniVRMProject_Data/Managed/Unity.TextMeshPro.pdb"
@@ -3086,7 +3086,7 @@
       "DisplayName": "Copying UniGLTF.Utils.pdb",
       "ActionType": "CopyFiles",
       "Inputs": [
-        "C:/Users/Bin/Documents/Unity/UniVRMProject/Library/Bee/PlayerScriptAssemblies/UniGLTF.Utils.pdb"
+        "C:/Users/Bin/Documents/UniVRMProject/Library/Bee/PlayerScriptAssemblies/UniGLTF.Utils.pdb"
       ],
       "Outputs": [
         "prog/UniVRMProject_Data/Managed/UniGLTF.Utils.pdb"
@@ -3098,7 +3098,7 @@
       "DisplayName": "Copying UniGLTF.UniUnlit.pdb",
       "ActionType": "CopyFiles",
       "Inputs": [
-        "C:/Users/Bin/Documents/Unity/UniVRMProject/Library/Bee/PlayerScriptAssemblies/UniGLTF.UniUnlit.pdb"
+        "C:/Users/Bin/Documents/UniVRMProject/Library/Bee/PlayerScriptAssemblies/UniGLTF.UniUnlit.pdb"
       ],
       "Outputs": [
         "prog/UniVRMProject_Data/Managed/UniGLTF.UniUnlit.pdb"
@@ -3110,7 +3110,7 @@
       "DisplayName": "Copying Unity.VisualScripting.State.pdb",
       "ActionType": "CopyFiles",
       "Inputs": [
-        "C:/Users/Bin/Documents/Unity/UniVRMProject/Library/Bee/PlayerScriptAssemblies/Unity.VisualScripting.State.pdb"
+        "C:/Users/Bin/Documents/UniVRMProject/Library/Bee/PlayerScriptAssemblies/Unity.VisualScripting.State.pdb"
       ],
       "Outputs": [
         "prog/UniVRMProject_Data/Managed/Unity.VisualScripting.State.pdb"
@@ -3122,7 +3122,7 @@
       "DisplayName": "Copying VRM.pdb",
       "ActionType": "CopyFiles",
       "Inputs": [
-        "C:/Users/Bin/Documents/Unity/UniVRMProject/Library/Bee/PlayerScriptAssemblies/VRM.pdb"
+        "C:/Users/Bin/Documents/UniVRMProject/Library/Bee/PlayerScriptAssemblies/VRM.pdb"
       ],
       "Outputs": [
         "prog/UniVRMProject_Data/Managed/VRM.pdb"
@@ -3134,7 +3134,7 @@
       "DisplayName": "Copying Photon3Unity3D.pdb",
       "ActionType": "CopyFiles",
       "Inputs": [
-        "C:/Users/Bin/Documents/Unity/UniVRMProject/Assets/Photon/PhotonLibs/netstandard2.0/Photon3Unity3D.pdb"
+        "C:/Users/Bin/Documents/UniVRMProject/Assets/Photon/PhotonLibs/netstandard2.0/Photon3Unity3D.pdb"
       ],
       "Outputs": [
         "prog/UniVRMProject_Data/Managed/Photon3Unity3D.pdb"
@@ -3145,7 +3145,7 @@
       "Annotation": "WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info",
       "DisplayName": "Writing app.info",
       "ActionType": "WriteFile",
-      "PayloadOffset": 17610,
+      "PayloadOffset": 17454,
       "PayloadLength": 28,
       "PayloadDebugContentSnippet": "DefaultCompany\nUniVRMProject",
       "Inputs": [],
@@ -4132,82 +4132,82 @@
       "File": "C:/Users/Bin/Documents/Unity/2022.3.62f3/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/win64_player_development_mono/Data/Resources"
     },
     {
-      "File": "C:/Users/Bin/Documents/Unity/UniVRMProject/Assets/Photon/PhotonLibs/netstandard2.0/Photon3Unity3D.pdb"
+      "File": "C:/Users/Bin/Documents/UniVRMProject/Assets/Photon/PhotonLibs/netstandard2.0/Photon3Unity3D.pdb"
     },
     {
-      "File": "C:/Users/Bin/Documents/Unity/UniVRMProject/Assets/Photon/PhotonLibs/WebSocket/websocket-sharp.pdb"
+      "File": "C:/Users/Bin/Documents/UniVRMProject/Assets/Photon/PhotonLibs/WebSocket/websocket-sharp.pdb"
     },
     {
-      "File": "C:/Users/Bin/Documents/Unity/UniVRMProject/Library/Bee/PlayerScriptAssemblies/Assembly-CSharp.pdb"
+      "File": "C:/Users/Bin/Documents/UniVRMProject/Library/Bee/PlayerScriptAssemblies/Assembly-CSharp.pdb"
     },
     {
-      "File": "C:/Users/Bin/Documents/Unity/UniVRMProject/Library/Bee/PlayerScriptAssemblies/Mediapipe.Runtime.pdb"
+      "File": "C:/Users/Bin/Documents/UniVRMProject/Library/Bee/PlayerScriptAssemblies/Mediapipe.Runtime.pdb"
     },
     {
-      "File": "C:/Users/Bin/Documents/Unity/UniVRMProject/Library/Bee/PlayerScriptAssemblies/MToon.pdb"
+      "File": "C:/Users/Bin/Documents/UniVRMProject/Library/Bee/PlayerScriptAssemblies/MToon.pdb"
     },
     {
-      "File": "C:/Users/Bin/Documents/Unity/UniVRMProject/Library/Bee/PlayerScriptAssemblies/PhotonChat.pdb"
+      "File": "C:/Users/Bin/Documents/UniVRMProject/Library/Bee/PlayerScriptAssemblies/PhotonChat.pdb"
     },
     {
-      "File": "C:/Users/Bin/Documents/Unity/UniVRMProject/Library/Bee/PlayerScriptAssemblies/PhotonRealtime.pdb"
+      "File": "C:/Users/Bin/Documents/UniVRMProject/Library/Bee/PlayerScriptAssemblies/PhotonRealtime.pdb"
     },
     {
-      "File": "C:/Users/Bin/Documents/Unity/UniVRMProject/Library/Bee/PlayerScriptAssemblies/PhotonUnityNetworking.Demos.pdb"
+      "File": "C:/Users/Bin/Documents/UniVRMProject/Library/Bee/PlayerScriptAssemblies/PhotonUnityNetworking.Demos.pdb"
     },
     {
-      "File": "C:/Users/Bin/Documents/Unity/UniVRMProject/Library/Bee/PlayerScriptAssemblies/PhotonUnityNetworking.pdb"
+      "File": "C:/Users/Bin/Documents/UniVRMProject/Library/Bee/PlayerScriptAssemblies/PhotonUnityNetworking.pdb"
     },
     {
-      "File": "C:/Users/Bin/Documents/Unity/UniVRMProject/Library/Bee/PlayerScriptAssemblies/PhotonUnityNetworking.Utilities.pdb"
+      "File": "C:/Users/Bin/Documents/UniVRMProject/Library/Bee/PlayerScriptAssemblies/PhotonUnityNetworking.Utilities.pdb"
     },
     {
-      "File": "C:/Users/Bin/Documents/Unity/UniVRMProject/Library/Bee/PlayerScriptAssemblies/SpringBoneJobs.pdb"
+      "File": "C:/Users/Bin/Documents/UniVRMProject/Library/Bee/PlayerScriptAssemblies/SpringBoneJobs.pdb"
     },
     {
-      "File": "C:/Users/Bin/Documents/Unity/UniVRMProject/Library/Bee/PlayerScriptAssemblies/UniGLTF.pdb"
+      "File": "C:/Users/Bin/Documents/UniVRMProject/Library/Bee/PlayerScriptAssemblies/UniGLTF.pdb"
     },
     {
-      "File": "C:/Users/Bin/Documents/Unity/UniVRMProject/Library/Bee/PlayerScriptAssemblies/UniGLTF.UniUnlit.pdb"
+      "File": "C:/Users/Bin/Documents/UniVRMProject/Library/Bee/PlayerScriptAssemblies/UniGLTF.UniUnlit.pdb"
     },
     {
-      "File": "C:/Users/Bin/Documents/Unity/UniVRMProject/Library/Bee/PlayerScriptAssemblies/UniGLTF.Utils.pdb"
+      "File": "C:/Users/Bin/Documents/UniVRMProject/Library/Bee/PlayerScriptAssemblies/UniGLTF.Utils.pdb"
     },
     {
-      "File": "C:/Users/Bin/Documents/Unity/UniVRMProject/Library/Bee/PlayerScriptAssemblies/UniHumanoid.pdb"
+      "File": "C:/Users/Bin/Documents/UniVRMProject/Library/Bee/PlayerScriptAssemblies/UniHumanoid.pdb"
     },
     {
-      "File": "C:/Users/Bin/Documents/Unity/UniVRMProject/Library/Bee/PlayerScriptAssemblies/Unity.Mathematics.pdb"
+      "File": "C:/Users/Bin/Documents/UniVRMProject/Library/Bee/PlayerScriptAssemblies/Unity.Mathematics.pdb"
     },
     {
-      "File": "C:/Users/Bin/Documents/Unity/UniVRMProject/Library/Bee/PlayerScriptAssemblies/Unity.TextMeshPro.pdb"
+      "File": "C:/Users/Bin/Documents/UniVRMProject/Library/Bee/PlayerScriptAssemblies/Unity.TextMeshPro.pdb"
     },
     {
-      "File": "C:/Users/Bin/Documents/Unity/UniVRMProject/Library/Bee/PlayerScriptAssemblies/Unity.Timeline.pdb"
+      "File": "C:/Users/Bin/Documents/UniVRMProject/Library/Bee/PlayerScriptAssemblies/Unity.Timeline.pdb"
     },
     {
-      "File": "C:/Users/Bin/Documents/Unity/UniVRMProject/Library/Bee/PlayerScriptAssemblies/Unity.VisualScripting.Core.pdb"
+      "File": "C:/Users/Bin/Documents/UniVRMProject/Library/Bee/PlayerScriptAssemblies/Unity.VisualScripting.Core.pdb"
     },
     {
-      "File": "C:/Users/Bin/Documents/Unity/UniVRMProject/Library/Bee/PlayerScriptAssemblies/Unity.VisualScripting.Flow.pdb"
+      "File": "C:/Users/Bin/Documents/UniVRMProject/Library/Bee/PlayerScriptAssemblies/Unity.VisualScripting.Flow.pdb"
     },
     {
-      "File": "C:/Users/Bin/Documents/Unity/UniVRMProject/Library/Bee/PlayerScriptAssemblies/Unity.VisualScripting.State.pdb"
+      "File": "C:/Users/Bin/Documents/UniVRMProject/Library/Bee/PlayerScriptAssemblies/Unity.VisualScripting.State.pdb"
     },
     {
-      "File": "C:/Users/Bin/Documents/Unity/UniVRMProject/Library/Bee/PlayerScriptAssemblies/UnityEngine.UI.pdb"
+      "File": "C:/Users/Bin/Documents/UniVRMProject/Library/Bee/PlayerScriptAssemblies/UnityEngine.UI.pdb"
     },
     {
-      "File": "C:/Users/Bin/Documents/Unity/UniVRMProject/Library/Bee/PlayerScriptAssemblies/VRM.pdb"
+      "File": "C:/Users/Bin/Documents/UniVRMProject/Library/Bee/PlayerScriptAssemblies/VRM.pdb"
     },
     {
-      "File": "C:/Users/Bin/Documents/Unity/UniVRMProject/Library/PackageCache/com.unity.visualscripting@1.9.4/Runtime/VisualScripting.Flow/Dependencies/NCalc/Unity.VisualScripting.Antlr3.Runtime.pdb"
+      "File": "C:/Users/Bin/Documents/UniVRMProject/Library/PackageCache/com.unity.visualscripting@1.9.4/Runtime/VisualScripting.Flow/Dependencies/NCalc/Unity.VisualScripting.Antlr3.Runtime.pdb"
     },
     {
-      "File": "C:/Users/Bin/Documents/Unity/UniVRMProject/Packages/com.github.homuler.mediapipe/Runtime/Plugins/Protobuf/Google.Protobuf.pdb"
+      "File": "C:/Users/Bin/Documents/UniVRMProject/Packages/com.github.homuler.mediapipe/Runtime/Plugins/Protobuf/Google.Protobuf.pdb"
     },
     {
-      "File": "C:/Users/Bin/Documents/Unity/UniVRMProject/Packages/com.github.homuler.mediapipe/Runtime/Plugins/Protobuf/System.Runtime.CompilerServices.Unsafe.pdb"
+      "File": "C:/Users/Bin/Documents/UniVRMProject/Packages/com.github.homuler.mediapipe/Runtime/Plugins/Protobuf/System.Runtime.CompilerServices.Unsafe.pdb"
     },
     {
       "File": "Library/Bee/Playeredb1c5bd-inputdata.json"
@@ -4293,6 +4293,6 @@
   "SharedResources": [],
   "Scanners": [],
   "Identifier": "Library/Bee/Playeredb1c5bd.dag.json",
-  "PayloadsFile": "C:/Users/Bin/Documents/Unity/UniVRMProject/Library/Bee/Playeredb1c5bd.dag.payloads",
+  "PayloadsFile": "C:/Users/Bin/Documents/UniVRMProject/Library/Bee/Playeredb1c5bd.dag.payloads",
   "RelativePathToRoot": "../.."
 }

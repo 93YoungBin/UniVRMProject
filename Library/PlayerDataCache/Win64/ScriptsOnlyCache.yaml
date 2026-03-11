@@ -2717,7 +2717,7 @@ ScriptsOnlyBuild:
     className: PhotonTeamsManager
   - hash:
       serializedVersion: 2
-      Hash: d52044b52062a661fa326ac8e7dae510
+      Hash: c348a15bef754fbc981fd25f1bd21adb
     assemblyName: Assembly-CSharp
     namespaceName: 
     className: AvatarManager
@@ -2754,4 +2754,4 @@ ScriptsOnlyBuild:
   platform: 19
   scenePathNames:
   - Assets/Scenes/UniVRMScene.unity
-  playerPath: C:/Users/Bin/Documents/Unity/UniVRMProject/prog/UniVRMProject.exe
+  playerPath: C:/Users/Bin/Documents/UniVRMProject/prog/UniVRMProject.exe
