@@ -1,8 +1,9 @@
 using Photon.Pun;
+using Photon.Realtime;
 using UnityEngine;
 using VRM;
 
-public class AvatarManager : MonoBehaviour, IPunObservable
+public class AvatarManager : MonoBehaviour, IPunObservable , IPunOwnershipCallbacks
 {
     private PhotonView photonView;
 
@@ -94,6 +95,24 @@ public class AvatarManager : MonoBehaviour, IPunObservable
             faceData.RightEye = (float)stream.ReceiveNext();
             faceData.Mouth = (float)stream.ReceiveNext();
         }
+    }
+
+    public void OnOwnershipRequest(PhotonView targetView, Player requestingPlayer)
+    {
+        Debug.Log("OnOwnershipRequest");
+        targetView.TransferOwnership(requestingPlayer);
+    }
+
+    public void OnOwnershipTransfered(PhotonView targetView, Player previousOwner)
+    {
+        Debug.Log("OnOwnershipTransfered");
+        throw new System.NotImplementedException();
+    }
+
+    public void OnOwnershipTransferFailed(PhotonView targetView, Player senderOfFailedRequest)
+    {
+        Debug.Log("OnOwnershipTransferFailed");
+        throw new System.NotImplementedException();
     }
 }
 

@@ -57,17 +57,17 @@
   <ItemGroup>
     <Compile Include="Assets\Photon\PhotonRealtime\Demos\DemoLoadBalancing\ConnectAndJoinRandomLb.cs" />
     <Compile Include="Assets\MediaPipeUnity\Samples\UI\Scripts\SolutionMenu.cs" />
-    <Compile Include="Assets\Script\PhotonManager.cs" />
     <Compile Include="Assets\Photon\PhotonChat\Demos\Demo Chat\Code\Utilities\DestroyOnStart.cs" />
     <Compile Include="Assets\MediaPipeUnity\Samples\UI\Scripts\ModalContents.cs" />
     <Compile Include="Assets\MediaPipeUnity\Samples\Scenes\Legacy\MediaPipe Video\MediaPipeVideoConfig.cs" />
     <Compile Include="Assets\MediaPipeUnity\Samples\Scenes\Image Segmentation\ImageSegmentationConfigWindow.cs" />
     <Compile Include="Assets\MediaPipeUnity\Samples\Common\Scripts\ImageSource\WebCamSource.cs" />
     <Compile Include="Assets\Photon\PhotonChat\Demos\Demo Chat\Code\ChannelSelector.cs" />
+    <Compile Include="Assets\Script\ToolProject\WebSocketManager.cs" />
+    <Compile Include="Assets\Script\ToolProject\VoteResultPanel.cs" />
     <Compile Include="Assets\Photon\PhotonChat\Demos\Demo Chat\Code\Utilities\IgnoreUiRaycastWhenInactive.cs" />
     <Compile Include="Assets\MediaPipeUnity\Samples\Common\Scripts\AssetLoader.cs" />
     <Compile Include="Assets\MediaPipeUnity\Samples\Scenes\Pose Landmark Detection\PoseLandmarkDetectionConfig.cs" />
-    <Compile Include="Assets\Script\Blinker.cs" />
     <Compile Include="Assets\Photon\PhotonChat\Demos\Demo Chat\Code\NamePickNewGui.cs" />
     <Compile Include="Assets\MediaPipeUnity\Samples\Scenes\Legacy\Holistic\HolisticTrackingSolution.cs" />
     <Compile Include="Assets\MediaPipeUnity\Samples\Scenes\Object Detection\ObjectDetectorRunner.cs" />
@@ -88,10 +88,14 @@
     <Compile Include="Assets\Photon\PhotonChat\Demos\Demo Chat\Code\Utilities\TextToggleIsOnTransition.cs" />
     <Compile Include="Assets\MediaPipeUnity\Samples\Common\Scripts\Bootstrap.cs" />
     <Compile Include="Assets\MediaPipeUnity\Samples\Common\Scripts\ImageReadMode.cs" />
+    <Compile Include="Assets\Script\ToolProject\VoteModule.cs" />
     <Compile Include="Assets\MediaPipeUnity\Samples\Common\Scripts\ImageSource\ImageSource.cs" />
     <Compile Include="Assets\MediaPipeUnity\Samples\Common\Scripts\WaitForResult.cs" />
     <Compile Include="Assets\MediaPipeUnity\Samples\Common\Scripts\AppSettings.cs" />
     <Compile Include="Assets\Photon\PhotonChat\Demos\Demo Chat\Code\FriendItem.cs" />
+    <Compile Include="Assets\Script\AvatarVRM\Manager\ProjectManager.cs" />
+    <Compile Include="Assets\Script\AvatarVRM\Manager\AvatarManager.cs" />
+    <Compile Include="Assets\Script\Singleton.cs" />
     <Compile Include="Assets\MediaPipeUnity\Samples\Scenes\Object Detection\ObjectDetectionConfig.cs" />
     <Compile Include="Assets\MediaPipeUnity\Samples\Scenes\Image Segmentation\ImageSegmenterRunner.cs" />
     <Compile Include="Assets\MediaPipeUnity\Samples\Scenes\Legacy\MediaPipe Video\MediaPipeVideoGraph.cs" />
@@ -100,14 +104,17 @@
     <Compile Include="Assets\Photon\PhotonChat\Demos\Demo Chat\Code\Utilities\TextButtonTransition.cs" />
     <Compile Include="Assets\MediaPipeUnity\Tutorial\Hello World\HelloWorld.cs" />
     <Compile Include="Assets\MediaPipeUnity\Samples\UI\Scripts\ImageSourceConfig.cs" />
+    <Compile Include="Assets\Script\ToolProject\ToolProjectManager.cs" />
+    <Compile Include="Assets\Script\AvatarVRM\Blinker.cs" />
+    <Compile Include="Assets\Script\ToolProject\VoteManager.cs" />
     <Compile Include="Assets\MediaPipeUnity\Samples\External\FontAwesome\UnicodeInlineText.cs" />
     <Compile Include="Assets\MediaPipeUnity\Samples\Scenes\Legacy\Holistic\HolisticTrackingConfig.cs" />
     <Compile Include="Assets\MediaPipeUnity\Tutorial\Custom Graph\FaceMeshLegacy.cs" />
-    <Compile Include="Assets\Script\ProjectManager.cs" />
     <Compile Include="Assets\MediaPipeUnity\Samples\Scenes\Face Landmark Detection\FaceLandmarkDetectionConfigWindow.cs" />
     <Compile Include="Assets\MediaPipeUnity\Samples\Scenes\Pose Landmark Detection\PoseLandmarkerRunner.cs" />
     <Compile Include="Assets\MediaPipeUnity\Samples\Common\Scripts\VisionTaskApiRunner.cs" />
     <Compile Include="Assets\MediaPipeUnity\Samples\Common\Scripts\ImageSource\VideoSource.cs" />
+    <Compile Include="Assets\Script\AvatarVRM\Manager\PhotonManager.cs" />
     <Compile Include="Assets\MediaPipeUnity\Samples\UI\Scripts\ModalButton.cs" />
     <Compile Include="Assets\Photon\PhotonChat\Demos\Demo Chat\Code\Utilities\ChatIdCheckerUI.cs" />
     <Compile Include="Assets\MediaPipeUnity\Samples\Common\Scripts\RunningMode.cs" />
@@ -119,9 +126,9 @@
     <Compile Include="Assets\MediaPipeUnity\Samples\Scenes\Hand Landmark Detection\HandLandmarkDetectionConfig.cs" />
     <Compile Include="Assets\MediaPipeUnity\Samples\Common\Scripts\ImageSource\ImageSourceType.cs" />
     <Compile Include="Assets\MediaPipeUnity\Samples\Scenes\Legacy\MediaPipe Video\MediaPipeVideoSolution.cs" />
-    <Compile Include="Assets\Script\AvatarManager.cs" />
     <Compile Include="Assets\MediaPipeUnity\Samples\Common\Scripts\TaskApiRunner.cs" />
     <Compile Include="Assets\MediaPipeUnity\Samples\Scenes\Object Detection\ObjectDetectionConfigWindows.cs" />
+    <Compile Include="Assets\Script\ToolProject\ChatDisplay.cs" />
     <Compile Include="Assets\MediaPipeUnity\Samples\UI\Scripts\Modal.cs" />
     <Compile Include="Assets\MediaPipeUnity\Samples\Scenes\Pose Landmark Detection\PoseLandmarkDetectionConfigWindow.cs" />
   </ItemGroup>
@@ -1037,6 +1044,10 @@
     </Reference>
     <Reference Include="Unity.VisualScripting.Shared.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.Shared.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="colyseus.nativewebsocket">
+      <HintPath>Library\ScriptAssemblies\colyseus.nativewebsocket.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Unity.VisualStudio.Editor">

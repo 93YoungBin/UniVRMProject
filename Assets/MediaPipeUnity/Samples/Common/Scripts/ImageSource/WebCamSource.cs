@@ -134,12 +134,20 @@ namespace Mediapipe.Unity
       {
          if(availableSources.Length > 1)
          {
-                    webCamDevice = availableSources[1];
-                }
-         else
-                {
                     webCamDevice = availableSources[0];
-                }
+                    foreach (var item in availableSources)
+                    {
+                        if(item.name.Contains("USB"))
+                        {
+                            webCamDevice = item;
+                            break;
+                        }
+                    }
+         }
+         else
+         {
+                    webCamDevice = availableSources[0];
+         }
       
       }
     }

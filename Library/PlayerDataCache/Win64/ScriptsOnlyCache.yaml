@@ -188,6 +188,9 @@ ScriptsOnlyBuild:
     fullTypeName: Mediapipe.Unity.Sample.FaceLandmarkDetection.UI.FaceLandmarkDetectionConfigWindow
     methodName: Exit
   - assembly: Assembly-CSharp
+    fullTypeName: ProjectManager
+    methodName: RequestOwner
+  - assembly: Assembly-CSharp
     fullTypeName: AvatarManager
     methodName: SetAvatarRPC
   - assembly: Assembly-CSharp
@@ -2754,4 +2757,4 @@ ScriptsOnlyBuild:
   platform: 19
   scenePathNames:
   - Assets/Scenes/UniVRMScene.unity
-  playerPath: C:/Users/Bin/Documents/UniVRMProject/prog/UniVRMProject.exe
+  playerPath: "C:/Users/Bin/Downloads/\uC0C8 \uD3F4\uB354 (37)/UniVRMProject.exe"

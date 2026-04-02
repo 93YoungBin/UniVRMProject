@@ -5,16 +5,16 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 639087121990758261
-    m_Hash: 4139947129
+      ticks: 639106901131071528
+    m_Hash: 3412366224
   m_LockFileStatus:
     m_FilePath: C:/Users/Bin/Documents/UniVRMProject/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 639087135850847513
-    m_Hash: 2545259875
+      ticks: 639106901131137974
+    m_Hash: 737436374
 m_EmbeddedPackageManifests:
   m_ManifestsStatus:
     C:/Users/Bin/Documents/UniVRMProject/Packages/com.vrmc.univrm/package.json:
@@ -46,6 +46,64 @@ m_LocalPackages:
 m_ProjectPath: C:/Users/Bin/Documents/UniVRMProject/Packages
 m_EditorVersion: 2022.3.62f3 (96770f904ca7)
 m_ResolvedPackages:
+- packageId: com.endel.nativewebsocket@https://github.com/endel/NativeWebSocket.git#upm-2
+  testable: 0
+  isDirectDependency: 1
+  version: 2.0.4
+  source: 5
+  resolvedPath: C:\Users\Bin\Documents\UniVRMProject\Library\PackageCache\com.endel.nativewebsocket@522f0c3f5c
+  assetPath: Packages/com.endel.nativewebsocket
+  name: com.endel.nativewebsocket
+  displayName: Native WebSockets
+  author:
+    name: Endel Dreyer
+    email: endel.dreyer@gmail.com
+    url: https://github.com/endel/NativeWebSocket
+  category: 
+  type: 
+  description: WebSocket client for Unity - with no external dependencies (WebGL,
+    Native, Android, iOS, UWP). Events auto-dispatch to the main thread via SynchronizationContext.
+  status: 0
+  errors: []
+  versions:
+    all: []
+    compatible: []
+    recommended: 
+    deprecated: []
+  dependencies: []
+  resolvedDependencies: []
+  keywords:
+  - websocket
+  - websockets
+  - native websocket
+  - native websockets
+  registry:
+    id: main
+    name: 
+    url: https://packages.unity.com
+    scopes: []
+    isDefault: 1
+    capabilities: 7
+    configSource: 0
+  hideInEditor: 1
+  isAssetStorePackage: 0
+  datePublishedTicks: 0
+  documentationUrl: 
+  hasRepository: 1
+  repository:
+    type: git
+    url: https://github.com/endel/NativeWebSocket.git
+    revision: 
+    path: 
+  unityLifecycle:
+    version: 
+    nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
+  fingerprint: 
 - packageId: com.unity.collab-proxy@2.11.4
   testable: 0
   isDirectDependency: 1
@@ -156,6 +214,7 @@ m_ResolvedPackages:
     - 2.11.2
     - 2.11.3
     - 2.11.4
+    - 2.12.4
     compatible:
     - 2.7.1
     - 2.8.1
@@ -169,6 +228,7 @@ m_ResolvedPackages:
     - 2.11.2
     - 2.11.3
     - 2.11.4
+    - 2.12.4
     recommended: 2.7.1
     deprecated: []
   dependencies: []
@@ -627,6 +687,7 @@ m_ResolvedPackages:
     - 1.8.9
     - 1.8.10
     - 1.8.11
+    - 1.8.12
     compatible:
     - 1.7.7
     - 1.8.0
@@ -641,6 +702,7 @@ m_ResolvedPackages:
     - 1.8.9
     - 1.8.10
     - 1.8.11
+    - 1.8.12
     recommended: 1.7.7
     deprecated: []
   dependencies:
@@ -828,6 +890,7 @@ m_ResolvedPackages:
     - 1.9.8
     - 1.9.9
     - 1.9.10
+    - 1.9.11
     compatible:
     - 1.9.4
     - 1.9.5
@@ -836,7 +899,8 @@ m_ResolvedPackages:
     - 1.9.8
     - 1.9.9
     - 1.9.10
-    recommended: 1.9.10
+    - 1.9.11
+    recommended: 1.9.11
     deprecated:
     - 1.8.0-pre.1
   dependencies:
